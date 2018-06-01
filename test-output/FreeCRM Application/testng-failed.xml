@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [FreeCRM Application]">
+  <test name="FreeCRM test(failed)">
+    <classes>
+      <class name="com.crm.qa.tests.ContactsPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="validateCreateNewContact" invocation-numbers="0 1 2"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.crm.qa.tests.ContactsPageTest -->
+    </classes>
+  </test> <!-- FreeCRM test(failed) -->
+</suite> <!-- Failed suite [FreeCRM Application] -->
